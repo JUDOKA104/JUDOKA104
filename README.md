@@ -77,6 +77,5 @@ Pilotage de la migration de parcs clients vers Odoo 18.
 ### 📊 Statistiques GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JUDOKA104&show_icons=true&theme=dark&hide_border=true&bg_color=050505&title_color=10B981&icon_color=10B981&text_color=9CA3AF" height="180" alt="Stats GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JUDOKA104&layout=compact&theme=dark&hide_border=true&bg_color=050505&title_color=10B981&text_color=9CA3AF" height="180" alt="Langages Top" />
+  <img src="https://raw.githubusercontent.com/JUDOKA104/JUDOKA104/main/github-metrics.svg" alt="Stats GitHub Metrics" />
 </div>
