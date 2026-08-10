@@ -1,0 +1,43 @@
+name: Profile stats
+
+on:
+  schedule: [{cron: "0 3 * * *"}]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+
+  # Cartes principales (projet maintenu)
+  summary-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: JUDOKA104
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 2
+          THEME: "github_dark"
+          ANIMATION: "load"
+          EXCLUDE: "HTML,CSS,TeX,Dockerfile,CMake,Makefile,Shell"
+          AUTO_PUSH: true
+
+  # Metrics gardé uniquement pour le calendrier isométrique
+  calendar:
+    runs-on: ubuntu-latest
+    needs: summary-cards
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-calendar.svg
+          token: ${{ secrets.METRICS_PAT }}
+          user: JUDOKA104
+          base: ""
+          config_timezone: Europe/Paris
+          plugins_errors_fatal: no
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
