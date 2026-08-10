@@ -77,5 +77,15 @@ Pilotage de la migration de parcs clients vers Odoo 18.
 ### 📊 Statistiques GitHub
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/JUDOKA104/JUDOKA104/main/github-metrics.svg" alt="Stats GitHub Metrics" />
+
+  <img src="https://raw.githubusercontent.com/JUDOKA104/JUDOKA104/main/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profil" />
+
+  <img src="https://raw.githubusercontent.com/JUDOKA104/JUDOKA104/main/profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />
+  <img src="https://raw.githubusercontent.com/JUDOKA104/JUDOKA104/main/profile-summary-card-output/github_dark/4-productive-time.svg" alt="Heures productives" />
+
+  <img src="https://raw.githubusercontent.com/JUDOKA104/JUDOKA104/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Langages par repo" />
+  <img src="https://raw.githubusercontent.com/JUDOKA104/JUDOKA104/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Langages par commits" />
+
+  <img src="https://raw.githubusercontent.com/JUDOKA104/JUDOKA104/main/github-calendar.svg" alt="Calendrier de contributions" />
+
 </div>
